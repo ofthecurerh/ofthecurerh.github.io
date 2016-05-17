@@ -5,6 +5,8 @@ layout: default
 
 # This is a test
 
+[text file](test.txt)
+
 <script>
 d3.select("body")
   .append("svg")
