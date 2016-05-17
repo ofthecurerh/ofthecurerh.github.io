@@ -1,25 +1,11 @@
 ---
-title: pbench test
+title: rosmith's pbench results
 layout: default
 ---
 
-# This is a test
+# Pbench results
 
-[text file](test.txt)
+[Results](results/)
 
-<script>
-d3.select("body")
-  .append("svg")
-  .attr("width", 50)
-  .attr("height", 50)
-  .append("circle")
-  .attr("cx", 25)
-  .attr("cy", 25)
-  .attr("r", 25)
-  .style("fill", "purple")
-  </script>
 
-<div class="container">
-{{ site.static_files }}
-</div>
   

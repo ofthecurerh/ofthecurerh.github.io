@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ page.title }}</title>
-    <script src="{{ site.baseurl}}/assets/js/d3.min.js"></script>
+  <title>{{ page.title }}</title>
+  
+  <script src="{{ site.baseurl }}/assets/js/d3.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/nv.d3.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/d3-queue.v2.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/saveSvgAsPng.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jschart.js"></script>
+    
+  <link href="{{ site.baseurl }}/assets/css/jschart.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-    <div class="container">
         {{content}}
-    </div>
 </body>
 </html>

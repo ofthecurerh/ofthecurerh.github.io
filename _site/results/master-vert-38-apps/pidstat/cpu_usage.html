@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>cpu usage</title>
+  
+  <script src="/assets/js/d3.min.js"></script>
+  <script src="/assets/js/nv.d3.min.js"></script>
+  <script src="/assets/js/d3-queue.v2.min.js"></script>
+  <script src="/assets/js/saveSvgAsPng.js"></script>
+  <script src="/assets/js/jschart.js"></script>
+    
+  <link href="/assets/css/jschart.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+        <center><h2>pidstat - cpu_usage</h2></center>
+<div id="chart_1">
+	<script>
+        create_graph("stackedAreaChart", "timeseries", "chart_1", "percent_cpu", null, null, { csvfiles: [ "csv/cpu_usage_percent_cpu.csv" ], threshold: 1 });
+	</script>
+</div>
+
+</body>
+</html>
