@@ -3,6 +3,8 @@
 
 # This is a test
 
+<script src="d3.min.js"></script>
+
 <script>
 d3.select("body")
   .append("svg")
