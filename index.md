@@ -15,5 +15,9 @@ d3.select("body")
   .attr("cy", 25)
   .attr("r", 25)
   .style("fill", "purple")
-</script>
+  </script>
+
+<div> class="container">
+{{ site.static_files }}
+</div>
   
