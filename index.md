@@ -5,7 +5,7 @@ layout: default
 
 # Pbench results
 
-[Results]({{ site.baseurl }}/results/)
+[Results]({{ site.baseurl }}/results)
 
 
   
